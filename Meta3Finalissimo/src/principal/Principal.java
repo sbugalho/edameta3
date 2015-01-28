@@ -34,6 +34,8 @@ public class Principal {
 
 	static JFrame frame;
 	
+	
+	
 	JRadioButton rbBublleSort,rbMergeSort,rbBTree,rbBTodos,rbInc,rbSemInc;
 	static int opcao=0;
 	boolean incremento=true;
@@ -127,7 +129,20 @@ public class Principal {
 					 
 				 }
 	            }
-		});	
+		});
+		
+		JButton savGraf = new JButton("guardar");
+		savGraf.setBounds(40, 200, 120, 30);
+		frame.add(savGraf);
+		savGraf.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				
+				
+			}
+		});
+		
 		frame.setVisible(true);
 	}
 	private void goButtonActionPerformed(ActionEvent evt,int eIniciais,int numVezes) {

@@ -20,7 +20,7 @@ import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
 public class Grafico {
-	int numVezes;// =5;
+	int numVezes;
 	static ChartPanel chartPanel;
 	int opcao=1;
 	int eIniciais;//=100;
